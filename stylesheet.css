@@ -38,3 +38,8 @@
   p{
       font-size: large;
   }
+
+  a{
+    color: #000000;
+    text-decoration: none;
+  }

@@ -1,0 +1,40 @@
+.wave-bg {
+    display: block;
+    height: 200px;
+    width: 100%;
+    min-width: 600px;
+    transform-origin: top;
+    background-image: url("../image/wave-bg.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .cover{
+    background-color: rgb(244, 246, 248);
+    opacity: 10;
+  }
+  
+  .marker {
+    position: relative;
+    display: inline;
+    width: auto;
+  }
+  
+  .marker-center {
+    padding-right: 0;
+  }
+  
+  .marker:after {
+    content: "";
+    width: 125px;
+    height: 30px;
+    position: absolute;
+    bottom: -25px;
+    right: -30px;
+    background-image: url("image/marker.svg");
+    background-repeat: no-repeat;
+  }
+  
+  p{
+      font-size: large;
+  }
